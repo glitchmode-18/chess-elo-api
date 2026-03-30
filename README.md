@@ -42,13 +42,11 @@ Rapid: [rating] | Blitz: [rating] | Bullet: [rating]
 
 ## Configuration
 
-To fetch ratings for a different player, update the player username in `server.js`:
+This project is configured to fetch ratings for the Chess.com player ItsJessedfe.
 
 ```javascript
-const response = await fetch("https://api.chess.com/pub/player/YOUR_USERNAME/stats");
+const response = await fetch("https://api.chess.com/pub/player/ItsJessedfe/stats");
 ```
-
-Replace `YOUR_USERNAME` with the desired Chess.com username.
 
 ## API Endpoint
 
